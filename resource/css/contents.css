@@ -2403,7 +2403,8 @@ body {
 .work .section5 .sec5-bott-box {
     margin-top: 32px;
 }
-.work .section5 .sec5-bott-box .sec-txt{
+
+.work .section5 .sec5-bott-box .sec-txt {
     margin-left: 64px;
 }
 
@@ -2411,7 +2412,8 @@ body {
     text-align: center;
     margin: 16px 0;
 }
-.work .section5 .sec5-bott-box .fir-txt{
+
+.work .section5 .sec5-bott-box .fir-txt {
     margin-bottom: 16px;
 }
 
@@ -2461,8 +2463,17 @@ body {
 
 .work .button-wrap.sec_5 {
     display: flex;
+    gap: 16px;
     justify-content: flex-start;
 }
+
+.work .button-wrap.sec_5 a:last-child {
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+    font-weight: 600;
+}
+
 
 
 
