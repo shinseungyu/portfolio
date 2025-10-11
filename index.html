@@ -109,13 +109,13 @@
 								<img src="./resource/img/content/index/tab1.jpg" alt="개인프로필">
 							</div>
 							<div data-tab="tab2" class="box tab-img2">
-								<img src="./resource/img/content/index/tab2.jpg" alt="바다">
+								<img src="./resource/img/content/index/tab2.webp" alt="바다">
 							</div>
 							<div data-tab="tab3" class="box tab-img3">
 								<img src="./resource/img/content/index/tab3.jpg" alt="보라카이">
 							</div>
 							<div data-tab="tab4" class="box tab-img4">
-								<img src="./resource/img/content/index/tab4.png" alt="은하수">
+								<img src="./resource/img/content/index/tab4.webp" alt="은하수">
 							</div>
 							<div data-tab="tab5" class="box tab-img5">
 								<img src="./resource/img/content/index/tab5.jpg" alt="개인작업">
@@ -145,7 +145,7 @@
 							<div id="tab2" class="con">
 								<div class="tab-wrap">
 									<div class="tab_imgbox2 tab-image">
-										<img src="./resource/img/content/index/tab2.jpg" alt="바다">
+										<img src="./resource/img/content/index/tab2.webp" alt="바다">
 										<h1 class="en header_txt">MY Goal</h1>
 									</div>
 									<div class="tab-txt">
@@ -195,7 +195,7 @@
 							<div id="tab4" class="con">
 								<div class="tab-wrap">
 									<div class="tab_imgbox4 tab-image">
-										<img src="./resource/img/content/index/tab5.png" alt="우주큰이미지">
+										<img src="./resource/img/content/index/tab4.webp" alt="우주큰이미지">
 										<h1 class="header_txt en">Experience</h1>
 									</div>
 									<div class="tab-txt">
@@ -443,13 +443,13 @@ $(function () {
 		let moveHeight = window.innerWidth <= 376 ? 40 :
 			window.innerWidth <= 900 ? 70 :
 				window.innerWidth <= 1200 ? 100 : 100;
-		$(".right-txt-box ul").animate({ top: `-${moveHeight}px` }, 2000, function () {
+		$(".right-txt-box ul").animate({ top: `-${moveHeight}px` }, 1500, function () {
 			$(".right-txt-box ul").append($(".right-txt-box ul li").first());
 			$(".right-txt-box ul").css({ top: 0 });
 		});
 	}
 	// 슬라이드 함수 호출
-	setInterval(slide, 4000);
+	setInterval(slide, 2000);
 	// section2
 	gsap.fromTo('.textBox .mask span',
 		{
